@@ -1,0 +1,22 @@
+header {
+    .info{
+    margin:5% 0 5% 0;
+    background-color: #fff;
+    width: 100%;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    div{
+        margin: 5%;
+    }
+    img {
+        margin: 5%;
+        max-width: 50%;
+    }
+}}

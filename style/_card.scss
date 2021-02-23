@@ -1,0 +1,15 @@
+.card {padding: 5%;
+    background-color: #fff;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    display: flex;
+    flex-direction: column;
+    img {
+        max-height: auto;
+        max-width: 40px;
+        margin: 10px;
+    }
+    p, h3 {
+        margin: 5px;
+    }
+}

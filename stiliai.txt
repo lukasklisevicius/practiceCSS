@@ -1,0 +1,37 @@
+spalvos:
+
+text (šviesi): #7d7987
+text (tamsi): #18272f
+primary (melyna): #458ff6
+
+šriftai:
+
+mulish, google fonts
+https://fonts.google.com/specimen/Mulish
+
+
+font-family: 'Mulish', sans-serif;
+
+body text: 18px; //300
+h1: 48px; // 700
+h2: 36px; // 700
+h3: 24px; // 700
+
+mygtukai:
+
+radius: 20px
+
+desktop
+
+width: 200px
+height: 90px
+
+
+mobile
+
+width: 150px
+height: 50px
+
+šešėlis:
+
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);

@@ -1,0 +1,36 @@
+@import "./vars";
+@import "./mixin";
+@import "./nav";
+@import "./header";
+@import "./button";
+@import "./button1";
+@import "./grid";
+@import "./card";
+@import "./screens";
+.content {
+    max-width: 100%;
+    flex-direction: column;
+}
+
+body {
+    background-color: #f2f2f0;
+    margin: 0 10% 5% 10%;
+    font-family: $fontFamily;
+    font-size: $textSizeBody;
+    p {color: $textColorLight;}
+    h1 {font-size: $textSizeH1;}
+    h2 {font-size: $textSizeH2;}
+    h3 {font-size: $textSizeH3;}
+    h1 h2 h3{color: $textColorDark;}
+}
+.info1, .info2{
+    @extend header;
+    flex-direction: column-reverse;
+}
+.head {text-align: center;}
+
+.foot {
+    @include flexCenter();
+    button {
+    background-color: #f2f2f0;
+}}

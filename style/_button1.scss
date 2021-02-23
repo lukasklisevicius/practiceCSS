@@ -1,0 +1,13 @@
+.button1 {
+    width: 150px;
+    height: 50px;
+    border-radius: $radius;
+    border: 1px solid $primaryColor;
+    background-color: #fff;
+    color: $primaryColor;
+    &:hover{
+       background-color: #306aba;
+       transition: 0.3s;
+       color: #fff;
+    }
+}
